@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Wanderer.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Wanderer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WandererEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Wanderer">
+      <UniqueIdentifier>{08A04685-19C2-317C-8C26-8630E025CF7C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Wanderer\MainCharacter.cpp">
+      <Filter>Source\Wanderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Wanderer\MainCharacter.h">
+      <Filter>Source\Wanderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Wanderer\ThiefCatcher.cpp">
+      <Filter>Source\Wanderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Wanderer\ThiefCatcher.h">
+      <Filter>Source\Wanderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Wanderer\ThiefCatcherGameMode.cpp">
+      <Filter>Source\Wanderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Wanderer\ThiefCatcherGameMode.h">
+      <Filter>Source\Wanderer</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\Wanderer\Wanderer.Build.cs">
+      <Filter>Source\Wanderer</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Wanderer\Wanderer.cpp">
+      <Filter>Source\Wanderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Wanderer\Wanderer.h">
+      <Filter>Source\Wanderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
